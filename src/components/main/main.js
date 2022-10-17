@@ -1,9 +1,11 @@
-import React from 'react';
-
+import React from "react";
 
 function Main() {
-  return <main>
-    This is Main
-  </main>;
+  return (
+    <main>
+      <h2>Todays Main Characters</h2>
+      <ul id="main_list"></ul>
+    </main>
+  );
 }
 export default Main;
